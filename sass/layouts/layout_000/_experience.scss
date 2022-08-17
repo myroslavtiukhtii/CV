@@ -1,0 +1,47 @@
+.experience {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .title h2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 100%;
+        color: #E25544;
+        margin-bottom: 15px;
+    }
+
+    .list {
+
+        border-bottom: 2px dashed #DEE2ED;
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        
+        h3 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            text-transform: capitalize;
+            color: #485268;
+            margin-bottom: 15px;
+        }
+
+        li {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 150%;
+            color: #485268;
+        }
+
+        .bold {
+            font-weight: 900;
+        }
+    }
+
+}

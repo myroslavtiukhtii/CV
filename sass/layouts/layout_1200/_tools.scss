@@ -1,0 +1,36 @@
+.tools {
+
+    .container {
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .short-list {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .short-list ul {
+        display: grid;
+        grid-template-columns: repeat(1, 171px);
+        grid-template-rows: repeat(3, 15px);
+        grid-column-gap: 0;
+        grid-row-gap: 15px;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        border-left: 2px dashed #DEE2ED;
+        border-bottom: unset;
+        padding-left: 8px;
+        }
+
+    h2 {
+        margin-bottom: 0;
+        margin-right: 103px;
+    }
+
+    li {
+        color: #485268;
+    }
+}
