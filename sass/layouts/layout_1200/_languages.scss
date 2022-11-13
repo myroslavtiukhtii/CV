@@ -1,5 +1,5 @@
-.education {
-    
+.languages {
+
     .container {
         padding-top: 25px;
         display: flex;
@@ -20,4 +20,10 @@
         align-items: flex-start;
         justify-content: center;
         }
+
+
+    li {
+        display: flex;
+        flex-direction: column;
+    }
 }

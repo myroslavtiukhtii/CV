@@ -2,7 +2,6 @@
     .container {
         display: flex;
         flex-direction: row;
-        border-bottom: 2px solid #DEE2ED;
         margin-bottom: 24px;
     }
     .title h2 {
@@ -22,7 +21,6 @@
         padding-bottom: 25px;
         
         ul {
-            border-left: 2px dashed #DEE2ED;
             padding-left: 8px;
         }
         
