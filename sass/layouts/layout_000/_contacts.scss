@@ -11,8 +11,13 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        gap: 5px;
         padding-top: 25px;
         padding-bottom: 25px;
+
+        li {
+            margin-bottom: 15px;
+        }
 
         a { 
             text-decoration: none;
@@ -21,7 +26,6 @@
             font-weight: 400;
             font-size: 15px;
             color: #fefefe;
-            
         }
 
     }
