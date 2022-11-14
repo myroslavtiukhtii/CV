@@ -1,6 +1,6 @@
 .tools {
     .container {
-        padding-top: 25px;
+        padding-top: 15px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -13,7 +13,7 @@
 
     .short-list ul {
         grid-template-columns: repeat(1, 250px);
-        grid-template-rows: repeat(3, 45px);
+        grid-template-rows: repeat(3, 25px);
         grid-row-gap: 25px;
         align-items: flex-start;
         justify-content: center;

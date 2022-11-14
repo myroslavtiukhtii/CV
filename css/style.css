@@ -65,7 +65,7 @@ table {
 }
 
 body {
-  background-color: black;
+  background-color: #1f1e1e;
 }
 
 .visually-hidden {
@@ -79,6 +79,10 @@ body {
   overflow: hidden;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .header .container {
   display: flex;
   flex-direction: column-reverse;
@@ -86,7 +90,7 @@ body {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #b5b1a3;
+  background-color: #3b3628;
   border-radius: 15px 15px 0 0;
 }
 .header .avatar {
@@ -206,7 +210,7 @@ body {
 }
 .education .container {
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(23, 76, 5) 57%);
+  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
   border-radius: 15px;
 }
 .education .short-list {
@@ -244,7 +248,7 @@ body {
 .skills .container {
   border-radius: 15px;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(23, 76, 5) 57%);
+  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
 }
 .skills .short-list {
   display: flex;
@@ -263,6 +267,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   color: #ffffff;
+  margin-bottom: 25px;
 }
 .skills li {
   font-family: "Montserrat";
@@ -279,7 +284,7 @@ body {
 .tools .container {
   border-radius: 15px;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(23, 76, 5) 57%);
+  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
 }
 .tools .short-list {
   display: flex;
@@ -318,7 +323,7 @@ body {
 .languages .container {
   border-radius: 15px;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(23, 76, 5) 57%);
+  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
 }
 .languages .short-list {
   display: flex;
@@ -410,7 +415,7 @@ body {
     margin-bottom: 15px;
   }
   .education .container {
-    padding-top: 25px;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
   }
@@ -421,7 +426,7 @@ body {
   .education .short-list ul {
     display: grid;
     grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(2, 45px);
+    grid-template-rows: repeat(2, 25px);
     grid-column-gap: 0;
     grid-row-gap: 25px;
     align-items: flex-start;
@@ -445,7 +450,7 @@ body {
     justify-content: center;
   }
   .tools .container {
-    padding-top: 25px;
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -456,13 +461,13 @@ body {
   }
   .tools .short-list ul {
     grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(3, 45px);
+    grid-template-rows: repeat(3, 25px);
     grid-row-gap: 25px;
     align-items: flex-start;
     justify-content: center;
   }
   .languages .container {
-    padding-top: 25px;
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
   }
@@ -473,7 +478,7 @@ body {
   .languages .short-list ul {
     display: grid;
     grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(2, 45px);
+    grid-template-rows: repeat(2, 25px);
     grid-column-gap: 0;
     grid-row-gap: 25px;
     align-items: flex-start;

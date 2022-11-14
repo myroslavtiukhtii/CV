@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #1f1e1e;
 }
 
 
@@ -24,4 +24,8 @@ body {
     border: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
+  }
+
+  .bold {
+    font-weight: bold;
   }
