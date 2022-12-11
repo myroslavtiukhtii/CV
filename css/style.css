@@ -142,7 +142,7 @@ body {
 }
 
 .contacts {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .contacts .container {
   background-color: rgb(88, 85, 77);
@@ -210,7 +210,7 @@ body {
 }
 
 .education {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .education .container {
   padding-top: 5px;
@@ -251,7 +251,7 @@ body {
 }
 
 .skills {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .skills .container {
   padding-top: 5px;
@@ -307,7 +307,7 @@ body {
 }
 
 .tools {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .tools .container {
   padding-top: 5px;
@@ -348,7 +348,7 @@ body {
 }
 
 .languages {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .languages .container {
   padding-top: 5px;
