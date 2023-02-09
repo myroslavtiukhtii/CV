@@ -1,2 +1,4 @@
+CV - Myroslav Tiukhtii
 
-Resume
+LINK - https://myroslavtiukhtii.github.io/CV/
+

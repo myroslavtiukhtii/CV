@@ -153,7 +153,7 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 5px;
+  gap: 10px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -167,6 +167,10 @@ body {
   font-weight: 400;
   font-size: 15px;
   color: #fefefe;
+  transition: 0.3s ease-in;
+}
+.contacts ul li:hover a {
+  color: #8d8d8d;
 }
 
 .experience .container {
@@ -213,7 +217,8 @@ body {
   margin-bottom: 5px;
 }
 .education .container {
-  padding-top: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-radius: 15px;
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
@@ -254,7 +259,8 @@ body {
   margin-bottom: 5px;
 }
 .skills .container {
-  padding-top: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-radius: 15px;
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
@@ -272,6 +278,9 @@ body {
   border-radius: 50%;
   margin-right: 5px;
 }
+.skills .title {
+  margin-bottom: 15px;
+}
 .skills .title ul {
   display: flex;
   flex-direction: row;
@@ -282,7 +291,7 @@ body {
 .skills .short-list {
   display: flex;
   flex-direction: row;
-  gap: 5px;
+  gap: 10px;
 }
 .skills .short-list ul {
   display: flex;
@@ -310,7 +319,8 @@ body {
   margin-bottom: 5px;
 }
 .tools .container {
-  padding-top: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-radius: 15px;
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
@@ -351,7 +361,8 @@ body {
   margin-bottom: 5px;
 }
 .languages .container {
-  padding-top: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-radius: 15px;
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
@@ -392,9 +403,6 @@ body {
     max-width: 795px;
     margin: 0 auto;
     padding: 0 15px;
-  }
-  .header {
-    min-height: 250px;
   }
   .header .container {
     display: flex;

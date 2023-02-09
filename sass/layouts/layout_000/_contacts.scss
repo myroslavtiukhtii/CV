@@ -11,7 +11,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        gap: 5px;
+        gap: 10px;
         padding-top: 25px;
         padding-bottom: 25px;
 
@@ -26,6 +26,13 @@
             font-weight: 400;
             font-size: 15px;
             color: #fefefe;
+            transition: .3s ease-in;
+        }
+
+        li:hover {
+            a {
+                color: #8d8d8d;
+            }
         }
 
     }
