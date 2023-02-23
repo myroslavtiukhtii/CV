@@ -9,59 +9,74 @@
         background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
     }
 
-    .skill-list li {
-        display: flex;
-        align-items: center;
-    }
+    .skills__block {
 
-    .skill-list li::before {
-        content: '';
-        display: inline-block;
-        width: 5px;
-        height: 5px;
-        background-color: #ffffff;
-        border-radius: 50%;
-        margin-right: 5px;
-    }
-
-    .title {
-        margin-bottom: 15px;
-        ul {
+        .block__list {
             display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            gap: 5px;
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .block__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
+    
+        .list__item {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 147%;
         }
     }
 
-    .short-list {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-    }
+    .skills__projects {
 
-    .short-list ul {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+        .list__item {
+            margin-bottom: 25px;
         }
 
-    h2 {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        color: #ffffff;
-        margin-bottom: 25px;
-    }
+        .projects__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            color: #ffffff;
+            margin-bottom: 25px;
+        }
 
-    li {
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        color: #ffffff;
-        line-height: 147%;
+        .item__title {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 147%;
+        }
+
+        .item__text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 147%;
+        }
+
+        .item__link {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 147%;
+            text-decoration: none;
+        }
     }
 }
