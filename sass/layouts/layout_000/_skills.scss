@@ -7,6 +7,10 @@
         border-radius: 15px;
         background: rgb(0, 0, 0);
         background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        justify-content: flex-start;
     }
 
     .skills__block {
@@ -76,7 +80,6 @@
             font-size: 14px;
             color: #ffffff;
             line-height: 147%;
-            text-decoration: none;
         }
     }
 }
