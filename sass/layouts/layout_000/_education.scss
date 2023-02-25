@@ -22,13 +22,13 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
+        gap: 15px;
 
         ul {
             display: flex;
             flex-direction: column;
-            gap: 15px;
         }
-        }
+    }
 
     h2 {
         font-family: 'Montserrat';

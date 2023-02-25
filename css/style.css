@@ -235,11 +235,11 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
+  gap: 15px;
 }
 .education .short-list ul {
   display: flex;
   flex-direction: column;
-  gap: 15px;
 }
 .education h2 {
   font-family: "Montserrat";
