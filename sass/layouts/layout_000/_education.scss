@@ -2,6 +2,9 @@
     margin-bottom: 5px;
 
     .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
         padding-top: 25px;
         padding-bottom: 25px;
         border-radius: 15px;

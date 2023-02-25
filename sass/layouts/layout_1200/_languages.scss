@@ -2,25 +2,15 @@
 
     .container {
         padding-top: 15px;
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 0.8fr 1fr;
     }
 
     .short-list {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
     }
-
-    .short-list ul {
-        display: grid;
-        grid-template-columns: repeat(1, 250px);
-        grid-template-rows: repeat(2, 25px);
-        grid-column-gap: 0;
-        grid-row-gap: 25px;
-        align-items: flex-start;
-        justify-content: center;
-        }
-
 
     li {
         display: flex;

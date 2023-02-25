@@ -145,7 +145,7 @@ body {
   margin-bottom: 5px;
 }
 .contacts .container {
-  background-color: rgb(88, 85, 77);
+  background-color: #58554d;
   border-radius: 0 0 15px 15px;
 }
 .contacts ul {
@@ -217,6 +217,9 @@ body {
   margin-bottom: 5px;
 }
 .education .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 15px;
@@ -330,6 +333,9 @@ body {
   margin-bottom: 5px;
 }
 .languages .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 15px;
@@ -364,6 +370,44 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #ffffff;
+  line-height: 147%;
+}
+
+.certification .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
+}
+.certification__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.certification__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.certification__list .list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.certification__list .list__item .item__title, .certification__list .list__item .item__date {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 15px;
   line-height: 147%;
 }
 
@@ -426,49 +470,34 @@ body {
   }
   .education .container {
     padding-top: 15px;
-    display: flex;
-    justify-content: space-between;
+    grid-template-columns: 0.8fr 1fr;
   }
   .education .short-list {
     display: flex;
     flex-direction: row;
   }
-  .education .short-list ul {
-    display: grid;
-    grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(2, 25px);
-    grid-column-gap: 0;
-    grid-row-gap: 25px;
-    align-items: flex-start;
-    justify-content: center;
-  }
   .skills .container {
     padding-top: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
     justify-content: flex-start;
   }
   .languages .container {
     padding-top: 15px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
   }
   .languages .short-list {
     display: flex;
     flex-direction: row;
-  }
-  .languages .short-list ul {
-    display: grid;
-    grid-template-columns: repeat(1, 250px);
-    grid-template-rows: repeat(2, 25px);
-    grid-column-gap: 0;
-    grid-row-gap: 25px;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
   }
   .languages li {
     display: flex;
     flex-direction: column;
+  }
+  .certification .container {
+    grid-template-columns: 0.8fr 1fr;
   }
 }
 
