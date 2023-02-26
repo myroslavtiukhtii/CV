@@ -90,7 +90,7 @@ body {
   align-items: center;
   padding-top: 25px;
   padding-bottom: 25px;
-  background-color: #3b3628;
+  background-color: #c7c7c7;
   border-radius: 15px 15px 0 0;
 }
 .header .avatar {
@@ -120,7 +120,7 @@ body {
   font-style: normal;
   font-weight: 600;
   font-size: 35px;
-  color: #FFFFFF;
+  color: #000000;
   margin-bottom: 15px;
 }
 .header .about .position {
@@ -129,7 +129,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #000000;
   margin-bottom: 15px;
 }
 .header .about p {
@@ -138,7 +138,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .contacts {
@@ -223,8 +223,7 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 15px;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
+  background: #c7c7c7;
 }
 .education .short-list {
   display: flex;
@@ -246,7 +245,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 15px;
 }
 .education li {
@@ -254,7 +253,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 147%;
 }
 
@@ -266,7 +265,7 @@ body {
   padding-bottom: 25px;
   border-radius: 15px;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
+  background: #c7c7c7;
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
@@ -282,7 +281,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 25px;
 }
 .skills .skills__block .list__item {
@@ -290,7 +289,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 147%;
 }
 .skills .skills__projects .list__item {
@@ -301,7 +300,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 25px;
 }
 .skills .skills__projects .item__title {
@@ -309,7 +308,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 147%;
 }
 .skills .skills__projects .item__text {
@@ -317,7 +316,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 147%;
 }
 .skills .skills__projects .item__link {
@@ -325,7 +324,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 147%;
 }
 
@@ -340,7 +339,7 @@ body {
   padding-bottom: 25px;
   border-radius: 15px;
   background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
+  background: #c7c7c7;
 }
 .languages .short-list {
   display: flex;
@@ -361,7 +360,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 15px;
 }
 .languages li {
@@ -369,7 +368,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   line-height: 147%;
 }
 
@@ -380,15 +379,14 @@ body {
   padding-top: 25px;
   padding-bottom: 25px;
   border-radius: 15px;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, #1f1e1e, rgb(23, 76, 5) 57%);
+  background: #c7c7c7;
 }
 .certification__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 15px;
 }
 .certification__list {
@@ -406,7 +404,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 15px;
   line-height: 147%;
 }
