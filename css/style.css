@@ -256,6 +256,10 @@ body {
   color: #000000;
   line-height: 147%;
 }
+.education li a {
+  color: #000000;
+  margin-left: 2px;
+}
 
 .skills {
   margin-bottom: 5px;
@@ -293,7 +297,7 @@ body {
   line-height: 147%;
 }
 .skills .skills__projects .list__item {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .skills .skills__projects .projects__title {
   font-family: "Montserrat";
@@ -398,6 +402,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 5px;
 }
 .certification__list .list__item .item__title, .certification__list .list__item .item__date {
   font-family: "Montserrat";
@@ -407,6 +412,10 @@ body {
   color: #000000;
   margin-bottom: 15px;
   line-height: 147%;
+}
+.certification__list .list__item .item__title a, .certification__list .list__item .item__date a {
+  margin-left: 2px;
+  color: #000000;
 }
 
 @media only screen and (min-width: 768px) {

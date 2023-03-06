@@ -28,6 +28,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            gap: 5px;
 
             .item__title, .item__date {
                 font-family: 'Montserrat';
@@ -37,6 +38,11 @@
                 color: #000000;
                 margin-bottom: 15px;
                 line-height: 147%;
+
+                a {
+                    margin-left: 2px;
+                    color: #000000;
+                }
             }
         }
     }
